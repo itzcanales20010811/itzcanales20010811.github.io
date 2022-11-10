@@ -1,0 +1,348 @@
+@charset "utf-8";
+body header h1 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    height: 40px;
+    padding-bottom: 80px;
+    color: #DAFAFD;
+}
+body nav, body header, body main, body footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body header {
+    background-color: #035776;
+    width: 1200px;
+    height: 200px;
+    text-align: center;
+}
+body nav {
+    background-color: #B7F3F8;
+    width: 1200px;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body main {
+    background-color: #035776;
+    width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body main section {
+    background-color: #DAFAFD;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+}
+main section p {
+    text-align: justify;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body footer {
+    background-color: #B7F3F8;
+    width: 1200px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body footer h6 {
+    width: 200px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#form1 {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(../listas/url);
+    background-color: #9DA7F4;
+    border: thick dotted #035776;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#form1 #submit {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#form2 {
+    width: 270px;
+    height: auto;
+    background-color: #035776;
+    border-style: solid;
+    border-color: #035776;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+#form2 label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#form2 input {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+#form2 label {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+#form4 {
+    background-color: #9DA7F4;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#form4 #descripcion #submit2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+#form1 #apellido {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form3 {
+    background-color: #495CF4;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#form4 #nombre4 {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form4 #montj #month {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form4 #tel #tel {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form4 #direccion #textfield2 {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form4 .integrantes #number {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form4 .email #email {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form4 #descripcion #textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+#form3 label {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#form3 br {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#form3 #textfield3 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 80%;
+}
+#form3 #email3 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 80%;
+}
+section p img {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    height: auto;
+}
+.centrar {
+    margin-left: 60px;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+}
+#Menu_gracias {
+    width: 600px;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    margin-left: 330px;
+    margin-right: auto;
+}
+
+#Menu_gracias .cuadromenu_gracias {
+    display: inline-block;
+    text-align: center;
+    background-color: #035776;
+    width: 150px;
+    height: 30px;
+    color: #B7F3F8;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#Menu_gracias .cuadromenu_gracias a {
+    text-decoration: none;
+    color: #B7F3F8;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+
+
+
+body p {
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu_formularios {
+}
+.cuadromenu_formularios {
+}
+#menu_formularios {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu_formularios .cuadromenu_formularios {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    background-color: #C1C7F9;
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    padding-left: 14px;
+    color: #035776;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+#menu_formularios .cuadromenu_formularios a {
+    color: #035776;
+    text-align: center;
+    text-decoration: none;
+}
+#menu_formularios .cuadromenu_formularios a:visited {
+    color: #F88D8F;
+}

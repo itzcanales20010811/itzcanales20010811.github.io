@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formulrios</title>
+<link href="../css/formatos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>&nbsp;FORMULARIOS EN HTML&nbsp;</h1>
+</header>
+<nav>
+  <ul id="menu_formularios">
+    <li class="cuadromenu_formularios">&nbsp;<a href="../index.html">Inicio</a></li>
+    <li class="cuadromenu_formularios">&nbsp;<a href="FORMATOSDETEXTO_CANALESLUNA.html">Formatos</a></li>
+    <li class="cuadromenu_formularios">&nbsp;<a href="LISTAS_CANALESLUNA.html">Listas</a></li>
+    <li class="cuadromenu_formularios">&nbsp;<a href="Tablas.html">Tablas</a></li>
+    <li class="cuadromenu_formularios"><a href="ENLACES_CANALESLUNA.html">Enlaces</a>&nbsp;</li>
+    <li class="cuadromenu_formularios"><a href="IMAGENES.html">Imágenes</a>&nbsp;</li>
+    <li class="cuadromenu_formularios"><a href="AUDIO_CANALESLUNA.html">Audio</a>&nbsp;</li>
+    <li class="cuadromenu_formularios"><a href="../Untitled-1.html">Video</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eligendi, sunt qui sapiente animi alias pariatur doloremque, ducimus earum obcaecati itaque neque labore numquam corporis odit, ad quisquam error! Temporibus enim in corporis amet ratione natus, commodi libero sed voluptates quia voluptatem, recusandae ut assumenda perspiciatis cumque dolor repellat fugit itaque laborum, tenetur autem. Dolorum, voluptate voluptates vero maxime mollitia.</p>
+<form id="form1" name="form1" method="post">
+      <label for="textfield">Nombre:</label>
+      <input name="nombre" type="text" autofocus="autofocus" required="required" id="nombre" autocomplete="on">
+      <div id="apellido">
+        <label for="textfield">Apellido:</label>
+        <input name="textfield" type="text" required="required" id="textfield">
+      </div>
+      <p>Género:&nbsp;</p>
+      <p>
+        <label>
+          <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_0">
+          Hombre</label>
+        <br>
+        <label>
+          <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_1">
+          Mujer</label>
+        <br>
+      </p>
+      <label>Lugar de hospedaje</label>
+      <p>
+        <label>
+          <input type="checkbox" name="Hospedaje" value="casilla de verificación " id="Hospedaje_0">
+          Hotel</label>
+        <br>
+        <label>
+          <input type="checkbox" name="Hospedaje" value="casilla de verificación " id="Hospedaje_1">
+          Hostal</label>
+        <br>
+        <label>
+          <input type="checkbox" name="Hospedaje" value="casilla de verificación " id="Hospedaje_2">
+          Domicilio privado</label>
+        <br>
+      </p>
+      <input name="submit" type="submit" id="submit" formaction="AGRADECIMIENTO_CANALESLUNA.html" formmethod="POST" value="Enviar">
+&nbsp;
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eligendi, sunt qui sapiente animi alias pariatur doloremque, ducimus earum obcaecati itaque neque labore numquam corporis odit, ad quisquam error! Temporibus enim in corporis amet ratione natus, commodi libero sed voluptates quia voluptatem, recusandae ut assumenda perspiciatis cumque dolor repellat fugit itaque laborum, tenetur autem. Dolorum, voluptate voluptates vero maxime mollitia.</p>
+    <p>&nbsp;</p>
+    <form id="form2" name="form1" method="post">
+      <label for="textfield2">Nombre:&nbsp;</label>
+      <input type="text" name="nombre2">
+      <label for="select">País de destino:</label>
+      <select name="select" id="select">
+        <option>Argentina</option>
+        <option>México</option>
+        <option>Francia</option>
+      </select>
+      <br>
+<label for="date">Fecha de viaje:</label>
+      <input name="date" type="date" id="date" max="2023-08-11" min="2022-01-01">
+      <label for="time">Hora de vuelo:</label>
+      <input name="time" type="time" id="time" max="23:00:00" min="08:00:00">
+      <label for="range">tiempo de vuelo:</label>
+      <input name="range" type="range" id="range" max="8" min="1" step="horas" title="horas de vuelo" value="horas">
+      <label for="tel2">Tel:</label>
+      <input type="tel" name="tel2" id="tel2">
+      <label for="email2">Email:</label>
+      <input type="email" name="email2" id="email2">
+      <input name="submit4" type="submit" id="submit4" formaction="AGRADECIMIENTO_CANALESLUNA.html" value="Enviar">
+
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eligendi, sunt qui sapiente animi alias pariatur doloremque, ducimus earum obcaecati itaque neque labore numquam corporis odit, ad quisquam error! Temporibus enim in corporis amet ratione natus, commodi libero sed voluptates quia voluptatem, recusandae ut assumenda perspiciatis cumque dolor repellat fugit itaque laborum, tenetur autem. Dolorum, voluptate voluptates vero maxime mollitia.</p>
+    <form id="form3" name="form3" method="post">
+<label for="textarea2">Descripción de viaje:</label>
+<textarea name="textarea2" rows="6" maxlength="150" required="required" id="textarea2" placeholder="Escribe tu descripción..."></textarea>
+<label for="email3"><br>
+  Email:</label>
+      <input name="email3" type="email" required="required" id="email3">
+<label for="textfield3"><br>
+  Dirección:</label>
+      <input name="textfield3" type="text" required="required" id="textfield3">
+      <br>
+<input name="submit3" type="submit" id="submit3" formaction="AGRADECIMIENTO_CANALESLUNA.html" value="Enviar">
+      
+    </form>
+</section>
+  <section>
+    <h2>Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eligendi, sunt qui sapiente animi alias pariatur doloremque, ducimus earum obcaecati itaque neque labore numquam corporis odit, ad quisquam error! Temporibus enim in corporis amet ratione natus, commodi libero sed voluptates quia voluptatem, recusandae ut assumenda perspiciatis cumque dolor repellat fugit itaque laborum, tenetur autem. Dolorum, voluptate voluptates vero maxime mollitia.</p>
+    <p>&nbsp;</p>
+    <form id="form4" name="form1" method="post">
+<label for="textfield4">Nombre completo&nbsp;</label>
+      <input name="nombre2" type="text" required="required" id="nombre4">
+      <div id="montj">
+        <label for="month">Fecha de nacimiento</label>
+        <input name="month" type="month" required="required" id="month">
+      </div>
+      <div id="tel">
+        <label for="tel">Tel:</label>
+        <input name="tel" type="tel" required="required" id="tel">
+      </div>
+      <div id="direccion">
+        <label for="textfield2">Dirección:</label>
+        <input name="textfield2" type="text" required="required" id="textfield2">
+      </div>
+      <div class="integrantes">
+        <label for="number">Número de integrantes:</label>
+        <input name="number" type="number" required="required" id="number">
+      </div>
+      <div class="email">
+        <label for="email">Email:</label>
+        <input name="email" type="email" required="required" id="email">
+      </div>
+      <div id="descripcion">
+        <label for="textarea">Descripción de la familia:</label>
+        <textarea name="textarea" maxlength="100" wrap="soft" id="textarea" form="form2" placeholder="Mi familia es..."></textarea>
+        <p>&nbsp;</p>
+<input name="submit2" type="submit" id="submit2" formaction="AGRADECIMIENTO_CANALESLUNA.html" formmethod="GET" value="Enviar">
+      </div>
+      
+      
+    </form>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Citlali Itzel Canales Luna&nbsp;</h6>
+</footer>
+</body>
+</html>
